@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+.header{
+    position: relative;
+}
+
 body {
     background-color:  #ffffff !important;
     font-family: 'Roboto Mono', monospace;
@@ -50,4 +54,93 @@ body {
 }
 .motto{
     margin-left: 1.3em;
+}
+.blueline{
+    height: 4em; 
+    width: 100%;
+    background-color: #0e1df2;
+    position: absolute;
+    top: 1018px;
+}
+
+.Servicessectionheader{
+    color: #0057E1;
+    font-weight: bolder;
+    font-size: 56px;
+    text-align: center;
+    margin: 0 60px;
+}
+
+.servicessection{
+    position: relative;
+    top: 1150px;
+    margin: 0 13%;
+    text-align: center;
+    text-justify: distribute;
+    line-height: 2.0;
+    letter-spacing: normal;
+}
+
+.mainpagepics{
+    height: 8em;
+    width: 8em;
+    border-radius: 100%;
+    
+}
+
+.servicescontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 70px 30px 30px;
+}
+
+.servicelink{
+    color: #0057E1;
+    font-size: 1.1em;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.visatext{
+    padding: 0 30px 30px;
+    font-size: 12px;
+}
+
+.sectionc{
+    position: relative;
+    top: 1220px;
+}
+
+.sectioncheader{
+    font-size: 2.5em;
+    color: #0057E1;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0 23%;
+}
+
+.sectionctext{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 3em;
+}
+
+.sectioncbutton{
+    position: relative;
+    border: 1px solid #0057E1;
+    left: 45%;
+    right: 45%;
+    padding: 10px 60px;
+    color: #ffffff;
+    background-color: #0057E1;
+}
+
+.sectioncbutton:hover{
+    color: #0057E1;
+    background-color: #fff;
 }
