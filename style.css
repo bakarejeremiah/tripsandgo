@@ -14,7 +14,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 1.2em;
+    margin-top: 0.4em;
 }
 .nav-container{
     display: flex;
@@ -143,4 +143,102 @@ a{
 .sectioncbutton:hover{
     color: #0057E1;
     background-color: #fff;
+}
+
+.part3{
+    background-color: #252424fb;
+    top: 1350px;
+    position: relative;
+    padding: 5em 1em 3em;
+}
+
+.part3header{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 56px;
+    text-align: center;
+    margin: 0 50px;
+}
+
+.appointmentpic{
+   display: flex;
+   color: #ffffff;
+   align-items: center;
+   justify-content: center;
+   gap: 2em;
+   padding: 0 17%;
+   margin-top: 1em;
+}
+
+.appointmentpic img{
+    height: 18em;
+    width: 21em;
+}
+
+.part3buttonandtext{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.part3text{
+    text-align: right;
+}
+
+.part3button{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #ffffff;
+    background-color: #0057E1; 
+}
+.part3button:hover{
+    color: #0057E1;
+    background-color: #fff; 
+}
+/* .part3text{
+    position: absolute;
+    color: #fff;
+    text-align: right;
+    padding: 0 70px;
+    font-size: 16px;
+    left: 35%;
+    right: 15%;
+    margin-top: 5em;
+}
+
+.part3button:hover{
+    color: #0057E1;
+    background-color: #fff; 
+} */
+
+.feedbackcontainer{
+    height: 20em; 
+    width: 100%;
+    background-color: #fff;
+    top: 1400px;
+    position: relative;
+
+}
+
+.Feedbackheader{
+    color: #272626;
+    font-weight: bolder;
+    font-size: 56px;
+    text-align: center;
+    margin: 0 60px; 
+}
+
+.Feedbacktextcontainer{
+    height: 25em; 
+    width: 100%;
+    background-color: #252424fb;
+    top: 1200px;
+    position: relative;
+}
+
+.Feedback1{
+    padding-top: 4em;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
 }
